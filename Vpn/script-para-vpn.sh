@@ -11,10 +11,9 @@ sudo tailscale up
 echo "=================="
 
 echo "Baixando SSH"
-apt install openssh-server openssh-client curl figlet -y
+apt install openssh-server openssh-client curl wget gpg figlet -y
 echo "=================="
-curl ascii.live/knot
-figlet Execução Concluída
+figlet Execucao Concluida
 echo "Exemplo de comando para acesso remoto: sudo ssh Usuario@Ip-Do-Servidor"
 
 
